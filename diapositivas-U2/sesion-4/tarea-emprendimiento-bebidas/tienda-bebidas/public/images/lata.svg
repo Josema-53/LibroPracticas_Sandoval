@@ -1,0 +1,7 @@
+<!-- Marcador de posición: lata de energizante -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" aria-hidden="true">
+  <circle cx="48" cy="48" r="46" fill="#EEF2F7" />
+  <rect x="32" y="18" width="32" height="60" rx="6" fill="#1F6FEB" />
+  <rect x="34" y="14" width="28" height="6" rx="3" fill="#9AA4B2" />
+  <path d="M50 30 L40 50 H48 L44 66 L58 44 H50 L54 30 Z" fill="#FFD43B" />
+</svg>

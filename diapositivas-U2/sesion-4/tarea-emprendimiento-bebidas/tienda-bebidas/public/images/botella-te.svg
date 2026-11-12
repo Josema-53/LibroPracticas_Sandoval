@@ -1,0 +1,8 @@
+<!-- Marcador de posición: botella de té -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" aria-hidden="true">
+  <circle cx="48" cy="48" r="46" fill="#F1F6EE" />
+  <rect x="42" y="12" width="12" height="8" rx="2" fill="#2F6B3A" />
+  <path d="M40 20 H56 V30 L62 40 V78 a4 4 0 0 1 -4 4 H38 a4 4 0 0 1 -4 -4 V40 L40 30 Z" fill="#C9A227" />
+  <rect x="34" y="46" width="28" height="18" fill="#FFFFFF" opacity="0.85" />
+  <path d="M44 55 q4 -8 8 0 q-4 6 -8 0 Z" fill="#2F6B3A" />
+</svg>

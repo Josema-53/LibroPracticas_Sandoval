@@ -1,0 +1,104 @@
+:root {
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --text: #1c2430;
+  --muted: #5b6676;
+  --accent: #1f6feb;
+  --ok: #1a7f37;
+  --out: #b42318;
+  --border: #e3e7ee;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.site-header,
+main,
+.site-footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.site-header {
+  padding-top: 32px;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  color: var(--accent);
+}
+
+.site-tagline {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+.section {
+  margin-top: 32px;
+}
+
+.section h2 {
+  font-size: 1.4rem;
+  margin: 0 0 12px;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.product-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.product-card h3 {
+  margin: 8px 0 4px;
+  font-size: 1.1rem;
+}
+
+.product-card p {
+  margin: 4px 0;
+}
+
+.product-description,
+.product-size {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.product-stock {
+  color: var(--ok);
+  font-weight: 600;
+}
+
+.product-stock--out {
+  color: var(--out);
+}
+
+.site-footer {
+  margin-top: 40px;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.9rem;
+}
